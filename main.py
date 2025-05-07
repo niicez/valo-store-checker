@@ -245,15 +245,13 @@ def main() -> None:
             print(f"{i}. {item['name']} (Cost: {item['cost']} VP)")
         print("=" * 60)
         print("[+] Script completed successfully!")
-
-    except Exception as e:
+    # pylint: disable=broad-exception-caught
+    except Exception as e:  # Still have a fallback for truly unexpected errors
         print("\n" + "=" * 60)
-        print("ERROR OCCURRED")
+        print("UNEXPECTED ERROR")
         print("=" * 60)
-        print(f"[-] Error: {e}")
-        print(
-            "[!] Check if your Riot client is properly installed and you are logged in."
-        )
+        print(f"[-] An unexpected error occurred: {e}")
+        print("[!] Please report this issue with the error details above.")
         print("=" * 60)
 
 
