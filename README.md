@@ -2,6 +2,8 @@
 
 A lightweight and minimal Python script that checks your Valorant store. No images or GUI—just simple, text-based output.
 
+![Showcase](https://github.com/niicez/valo-store-checker/blob/main/docs/image_1.png?raw=true)
+
 ## Features
 
 -   Minimalist design — terminal-only output
