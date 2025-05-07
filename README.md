@@ -15,12 +15,12 @@ A lightweight and minimal Python script that checks your Valorant store. No imag
 
 ## How to Use
 
-# Option 1: Use Precompiled Executable
+### Option 1: Use Precompiled Executable
 
 1. [Download](https://github.com/niicez/valo-store-checker/releases/download/v1.0/valo-skin-checker-x64.zip)
 2. Run valo-skin-checker.exe
 
-# Option 2: Run from Source
+### Option 2: Run from Source
 
 1. Ensure you are logged in to the Riot Client.
 2. Run the script:
