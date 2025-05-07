@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 ValSkinSpy: A utility to fetch Valorant skin shop information.
 
@@ -7,6 +6,7 @@ using credentials from the local Riot Client installation.
 """
 
 import os
+import msvcrt
 from typing import List, Dict, Any
 import requests
 import yaml
@@ -217,6 +217,12 @@ class ValShopClient:
         return shop_items
 
 
+def wait_for_keypress() -> None:
+    """Wait for any key to be pressed."""
+    print("\nPress any key to exit...")
+    msvcrt.getch()
+
+
 def main() -> None:
     """Main function to run the Valorant shop client."""
     print("=" * 60)
@@ -257,3 +263,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+    wait_for_keypress()
