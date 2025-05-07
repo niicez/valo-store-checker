@@ -5,7 +5,6 @@ A lightweight and minimal Python script that checks your Valorant store. No imag
 ## Features
 
 -   Minimalist design — terminal-only output
--   No image display for better performance
 -   Easy to use
 
 ## Prerequisites
