@@ -20,3 +20,8 @@ A lightweight and minimal Python script that checks your Valorant store. No imag
 ```bash
 python main.py
 ```
+
+## Credits
+
+-   Claude Sonnet 3.7
+-   Inspired by [ValSkinSpy](https://github.com/BlueFlareJinx/ValSkinSpy)
